@@ -1,5 +1,110 @@
 [
   {
+    "ContainingType": "NzWalks.API.Controllers.RegionController",
+    "Method": "GetAllRegions",
+    "RelativePath": "api/Region",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NzWalks.API.Controllers.RegionController",
+    "Method": "CreateRegion",
+    "RelativePath": "api/Region",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addregionDto",
+        "Type": "NzWalks.API.Models.DTOs.AddRegionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NzWalks.API.Controllers.RegionController",
+    "Method": "GetRegionById",
+    "RelativePath": "api/Region/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NzWalks.API.Controllers.RegionController",
+    "Method": "Update",
+    "RelativePath": "api/Region/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "updateRegionDto",
+        "Type": "NzWalks.API.Models.DTOs.UpdateRegionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NzWalks.API.Controllers.RegionController",
+    "Method": "Delete",
+    "RelativePath": "api/Region/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NzWalks.API.Controllers.WalkController",
+    "Method": "Create",
+    "RelativePath": "api/Walk",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addwalkerDto",
+        "Type": "NzWalks.API.Models.DTOs.AddWalkerDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "NzWalks.API.Controllers.WalkController",
+    "Method": "GetAll",
+    "RelativePath": "api/Walk",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NzWalks.API.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

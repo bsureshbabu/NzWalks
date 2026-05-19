@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\ASP.NETCORE\\NzWalks\\NzWalks.API\\NzWalks.API.csproj": {}
+    "D:\\AspNetCore8WebApi\\NzWalks\\NzWalks.API\\NzWalks.API.csproj": {}
   },
   "projects": {
-    "D:\\ASP.NETCORE\\NzWalks\\NzWalks.API\\NzWalks.API.csproj": {
+    "D:\\AspNetCore8WebApi\\NzWalks\\NzWalks.API\\NzWalks.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\ASP.NETCORE\\NzWalks\\NzWalks.API\\NzWalks.API.csproj",
+        "projectUniqueName": "D:\\AspNetCore8WebApi\\NzWalks\\NzWalks.API\\NzWalks.API.csproj",
         "projectName": "NzWalks.API",
-        "projectPath": "D:\\ASP.NETCORE\\NzWalks\\NzWalks.API\\NzWalks.API.csproj",
+        "projectPath": "D:\\AspNetCore8WebApi\\NzWalks\\NzWalks.API\\NzWalks.API.csproj",
         "packagesPath": "C:\\Users\\sures\\.nuget\\packages\\",
-        "outputPath": "D:\\ASP.NETCORE\\NzWalks\\NzWalks.API\\obj\\",
+        "outputPath": "D:\\AspNetCore8WebApi\\NzWalks\\NzWalks.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,9 +50,22 @@
         "net10.0": {
           "targetAlias": "net10.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[10.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.8, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
